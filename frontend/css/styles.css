@@ -1,0 +1,42 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+a:hover {
+    cursor: pointer;
+}
+
+/* Header */
+header {
+    background-color: #95b1b0;
+    height: 10vh;
+}
+header a {
+    margin-top: 5%;
+}
+header h1 {
+    margin-left: 10%;
+}
+
+/* Cards */
+.card {
+    background-color: #adc5ff;
+    margin: 2% 2% 2% 5%;
+}
+.card a {
+    margin-bottom: 5%;
+}
+
+/* Footer */
+footer {
+    background-color: #324b4b;
+    height: 20vh;
+}
+footer i {
+    margin: 2%;
+}
