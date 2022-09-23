@@ -7,6 +7,7 @@ const container = document.getElementById("container");
 //
 window.onload = () => {
     const container = document.getElementById("container");
+    // Fetch the get news api using jQuery
     $.get(
         "http://localhost/news/get_news.php",
         data => {
