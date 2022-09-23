@@ -4,3 +4,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+a:hover {
+    cursor: pointer;
+}
+header {
+    background-color: aqua;
+}
+header a {
+    margin-top: 5%;
+}
+header h1 {
+    margin-left: 10%;
+}
+.card {
+    background-color: #ffe7d4;
+    margin: 2% 2% 2% 5%;
+}
+.card a {
+    margin-bottom: 5%;
+}
+footer {
+    background-color: #324b4b;
+    height: 20vh;
+}
