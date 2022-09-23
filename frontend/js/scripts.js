@@ -13,8 +13,8 @@ window.onload = () => {
             let news = ``;
             data.map(values => {
                 news += `<div class="col-lg-3 col-md-5 card">
-                <p class="text-primary">${values.title}</p>
-                <p>${values.date}</p>
+                <h3 class="text-primary">${values.title}</h3>
+                <h6>${values.date}</h6>
                 <p>${values.descript}</p>
                 <a class="btn btn-primary">Read more</a>
             </div>`;

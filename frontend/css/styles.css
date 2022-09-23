@@ -4,11 +4,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: "Roboto", sans-serif;
+}
 a:hover {
     cursor: pointer;
 }
 header {
-    background-color: aqua;
+    background-color: #95b1b0;
     height: 10vh;
 }
 header a {
@@ -18,7 +21,7 @@ header h1 {
     margin-left: 10%;
 }
 .card {
-    background-color: #ffe7d4;
+    background-color: #adc5ff;
     margin: 2% 2% 2% 5%;
 }
 .card a {
