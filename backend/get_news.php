@@ -2,7 +2,7 @@
 header("Access-Control-Allow-origin:*");
 include("connection.php");
 
-$query = $mysqli->prepare("SELECT title, descript FROM news");
+$query = $mysqli->prepare("SELECT title, date, descript FROM news");
 $query->execute();
 $array = $query->get_result();
 
