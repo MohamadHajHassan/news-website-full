@@ -9,6 +9,7 @@ a:hover {
 }
 header {
     background-color: aqua;
+    height: 10vh;
 }
 header a {
     margin-top: 5%;
@@ -26,4 +27,7 @@ header h1 {
 footer {
     background-color: #324b4b;
     height: 20vh;
+}
+footer i {
+    margin: 2%;
 }
